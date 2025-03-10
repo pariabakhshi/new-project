@@ -127,14 +127,14 @@
               </div>
             </div>
             <!-- تصویر ۳ -->
-            <div class="relative overflow-hidden rounded-lg">
-              <img src="/assets/image/picture1.jfif" alt="تصویر ۳" class="w-full h-full object-cover" />
-              <div class="absolute inset-0 group bg-black opacity-50 hover:opacity-10 transition duration-300">
-                <p class="text-red-700 text-center opacity-0 group-hover:opacity-100 group-hover:text-amber-300 mt-4    duration-300">
-                  توضیحات تصویر ۳
-                </p>
-              </div>
+           <a id="pigGallery" href="#picbox" class="relative overflow-hidden rounded-lg">
+            <img src="/assets/image/picture4.jfif" alt="" class="w-full h-full object-cover">
+            <div class="absolute inset-0 group bg-black opacity-50 hover:opacity-10 transition duration-300">
+              <p class="text-white text-center opacity-0 group-hover:opacity-100 group-hover:text-amber-300
+              mt-4 duration-300">
+              </p>
             </div>
+           </a>
             <!-- تصویر ۳ -->
             <div class="relative overflow-hidden rounded-lg">
               <img src="/assets/image/picture3.jfif" alt="تصویر ۳" class="w-full h-full object-cover" />
@@ -146,6 +146,12 @@
             </div> 
           </div>
         </section>
+        <div id="picbox" class="absolute transition-all duration-700 bg-opacity-50 opacity-0 invisible
+         target:visible flex target:opacity-100 flex-col justify-center items-center w-full md:w-[80%] py-24
+         bg-gray-700 bottom-0 left-0 right-0 m-auto rounded-2xl">
+         <img src="/assets/image/picture4.jfif" alt="">
+         <a href="#pigGallery" class="bg-black rounded-full p-2 mt-52 text-2xl border-red-600 border-4">❌</a>
+        </div>
     </main>
       <footer class="bg-lime-300 text-blue-900 p-6 text-center">
         footer content ...
